@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style2.css"/> 
+</head>
+<body>
+    <h1>Login Page</h1>
+    <div class="login">
+        <form id = "my-form" method = "get" action="">
+            <label for="">Name</label>
+            <input type ="text" id = "name" placeholder="Username">
+            <label for="">Password</label>
+            <input type="password"id="pass" placeholder="Password">
+            <input type="button" onclick= "show_alert()" value = "login in">
+        </form>
+    </div>
+    <script>
+        function show_alert(Name){
+            var inputs = document.getElementById("my-form").elements;
+            var inputByIndex = inputs[0];
+            var inputByName = inputs["Username"];
+            console.log(inputByName);
+            alert("Hello from " + inputByName);
+        }
+    </script>
+</body>
+</html>

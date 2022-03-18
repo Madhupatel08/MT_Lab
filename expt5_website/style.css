@@ -1,0 +1,59 @@
+.flex{
+    margin-bottom: 40px;
+    background-color: beige;
+    width: 100%;
+    height: 220px;
+    overflow:auto;
+}
+.one{
+    margin-bottom: 100px;
+    float: left;
+}
+.two{
+    float: left;
+    margin-left: 60px;
+}
+.two h1{
+    font-family: 'Source Sans Pro',sans-serif;
+    font-weight: bold;
+    text-decoration-color: #135107;
+    font-size: 28px;
+}
+.two h3{
+    text-align: center;
+    font-family: 'Source Sans Pro',sans-serif;
+}
+.navbar{
+    background-color: black;
+    width: 100%;
+    height: 80px;
+}
+.navbar a{
+    color: white;
+    font-size: 20px;
+    padding-right: 20px;
+}
+span:before{
+    content:" "; 
+    display:inline-block; 
+    width:200px;
+}
+
+.heading{
+   text-align: center;
+   border: 2px solid;
+   position:relative;
+}
+.slogin{
+    float: left;
+}
+.slogin{
+    text-align: center;
+}
+.flogin{
+    float: left;
+    margin-left: 400px;
+}
+.flogin h3{
+    text-align: center;
+}
